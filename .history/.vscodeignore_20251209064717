@@ -1,0 +1,12 @@
+.history/**
+.vscode/**
+.vscode-test/**
+test/**
+src/**
+.gitignore
+jsconfig.json
+vsc-extension-quickstart.md
+**/*.ps1
+**/*.sh
+**/*.bat
+**/*.icon.svg

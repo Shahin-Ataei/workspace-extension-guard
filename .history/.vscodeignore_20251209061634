@@ -1,0 +1,21 @@
+.vscode/**
+.vscode-test/**
+test/**
+src/**
+.gitignore
+jsconfig.json
+vsc-extension-quickstart.md
+**/*.ps1
+**/*.sh
+**/*.bat
+Write-Host "`nProject Ready for Publishing!" -ForegroundColor Cyan
+Write-Host "--------------------------------------------------------"
+Write-Host "CRITICAL NEXT STEPS:" -ForegroundColor Yellow
+Write-Host "1. Open '$TargetDir/package.json'"
+Write-Host "2. Change 'YOUR_PUBLISHER_ID' to your actual Marketplace Publisher ID."
+Write-Host "3. Change 'YOUR_USERNAME' in the repository URL."
+Write-Host "4. Update 'LICENSE' with your name."
+Write-Host "5. Run 'npm install -g @vscode/vsce' (if not installed)."
+Write-Host "6. Run 'vsce package' to create the .vsix file."
+Write-Host "7. Run 'vsce publish' to upload to the Marketplace."
+Write-Host "--------------------------------------------------------"
